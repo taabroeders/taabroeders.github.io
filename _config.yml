@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Tommy and I'm a PhD student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). I am a <mark>computational neuroscientist<mark> and my research focuses on <mark>brain network dynamics<mark> across diseases and disorders (primarily Multiple Sclerosis).
+  Hi, my name's Tommy and I'm a PhD student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). I am a <mark>computational neuroscientist</mark> and my research focuses on <mark>brain network dynamics</mark> across diseases and disorders (primarily Multiple Sclerosis).
 
 content:
   - title: Publications # Title for the section
