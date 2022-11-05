@@ -60,7 +60,6 @@ content:
         link_text: All Publications
         additional_links:
           - title:  Dorsal attention network centrality increases during recovery from acute stress exposure
-        description
             icon: fas fa-book
             url: https://doi.org/10.1016/j.nicl.2021.102721
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
