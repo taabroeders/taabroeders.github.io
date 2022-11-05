@@ -3,7 +3,7 @@ repository: taabroeders/code
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 1
+version: 2
 
 # Personal info
 name: Tommy Broeders
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Tommy and I'm a PhD student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). I am a <mark>computational neuroscientist</mark> and my research focuses on <mark>brain network dynamics</mark> across diseases and disorders (primarily Multiple Sclerosis).
+  Hi, my name's Tommy and I'm a PhD student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). I am a <mark>computational neuroscientist</mark> and my research focuses on <mark>brain network dynamics</mark> across diseases and disorders (primarily multiple sclerosis).
 
 content:
   - title: Publications # Title for the section
@@ -91,7 +91,7 @@ content:
         caption: 2017 - 2019
         sub_title: MSc Neuroscience and Cognition
         quote: >
-          Neuroscience and cognition
+          Neuroscience and Cognition
         description: | # this will include new lines to allow paragraphs
           Bioinformatics Profile
 
@@ -100,10 +100,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in brain networks some of my other interests and hobbies are:
       - Climbing
-      - Gaming
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - Gaming (rocket league)
 
 # Footer
 footer_show_references: true
