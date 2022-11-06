@@ -60,21 +60,21 @@ content:
         link: https://doi.org/10.1093/braincomms/fcac095
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
-          ##  A more unstable resting-state functional network in cognitively declining multiple sclerosis
+          ##  **"A more unstable resting-state functional network in cognitively declining multiple sclerosis"**
       - layout: left
         title: Journal of Pyschopharmacology
         sub_title: 2022
         link: https://doi.org/10.1177/02698811221077199
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
-          ##  Glutamate levels across deep brain structures in patients with a psychotic disorder and its relation to cognitive functioning
+          ##  **"Glutamate levels across deep brain structures in patients with a psychotic disorder and its relation to cognitive functioning"**
       - layout: left
         title: Neuroimage Clinical
         sub_title: 2020
         link: https://doi.org/10.1016/j.nicl.2021.102721
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
-          ## Dorsal attention network centrality increases during recovery from acute stress exposure
+          ## **"Dorsal attention network centrality increases during recovery from acute stress exposure"**
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -102,12 +102,24 @@ content:
         description: | # this will include new lines to allow paragraphs
           Bioinformatics Profile
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in brain networks some of my other interests and hobbies are:
-      - Climbing
-      - Gaming (rocket league)
+  - title: Codes
+    layout: list
+    content:
+      - layout: left
+        title: Generate surrogate data
+        caption: MATLAB
+        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/Generate_surrogate.m
+        link_code: Go to code
+        description: |
+          This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
+          - layout: left
+        title: Community Detection
+        caption: MATLAB
+        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
+        link_code: Go to code
+        description: |
+          This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
+      
 
 # Footer
 footer_show_references: true
