@@ -99,16 +99,16 @@ content:
         sub_title: MSc Neuroscience and Cognition
         description: | # this will include new lines to allow paragraphs
           ## **Neuroscience and Cognition**
-        quote: >
-          Bioinformatics profile
+       #  quote: >
+       #    Bioinformatics profile
       - layout: left
         title: Tilburg University
         caption: 2014 - 2017
         sub_title: BSc Psychology
         description: | # this will include new lines to allow paragraphs
           ## **Psychology**
-        quote: >
-          Exchange to Trent University (Canada)
+        # quote: >
+        #   Exchange to Trent University (Canada)
 
   - title: Codes
     layout: list
