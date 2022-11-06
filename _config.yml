@@ -51,26 +51,30 @@ about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Tommy and I'm a PhD student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). I am a <mark>computational neuroscientist</mark> and my research focuses on <mark>brain network dynamics</mark> across diseases and disorders (primarily multiple sclerosis).
 
 content:
-  - title: Publications # Title for the section
+  - title: First Authored Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Brain Communications
+        sub_title: 2022
+        link: https://doi.org/10.1093/braincomms/fcac095
+        link_text: Go to article
+        description: | # this will include new lines to allow paragraphs
+          ##  A more unstable resting-state functional network in cognitively declining multiple sclerosis
+      - layout: left
+        title: Journal of Pyschopharmacology
+        sub_title: 2022
+        link: https://doi.org/10.1177/02698811221077199
+        link_text: Go to article
+        description: | # this will include new lines to allow paragraphs
+          ##  Glutamate levels across deep brain structures in patients with a psychotic disorder and its relation to cognitive functioning
       - layout: left
         title: Neuroimage Clinical
         sub_title: 2020
         link: https://doi.org/10.1016/j.nicl.2021.102721
         link_text: Go to article
-        # caption: 2020
-        # additional_links:
-          # - title:  Dorsal attention network centrality increases during recovery from acute stress exposure
-          #   icon: fas fa-book
-          #   url: https://doi.org/10.1016/j.nicl.2021.102721
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        # quote: |
-        #  Dorsal attention network centrality increases during recovery from acute stress exposure
         description: | # this will include new lines to allow paragraphs
-          # Dorsal attention network centrality increases during recovery from acute stress exposure
+          ## Dorsal attention network centrality increases during recovery from acute stress exposure
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
