@@ -85,10 +85,10 @@ content:
         link_text: anatomy-neurosciences.com
         sub_title: PhD Student
         caption: May 2020 - Present
-        quote: |
-          Network Resilience
+       # quote: |
+       #   Network Resilience
         description: | # this will include new lines to allow paragraphs
-          Quentifying network resilience by looking at brain network dynamics across diseases and disorders.
+          ## **Quentifying network resilience by looking at brain network dynamics across diseases and disorders**
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -97,10 +97,18 @@ content:
         title: Utrecht University
         caption: 2017 - 2019
         sub_title: MSc Neuroscience and Cognition
-        quote: |
-          Neuroscience and Cognition
         description: | # this will include new lines to allow paragraphs
-          Bioinformatics Profile
+          ## **Neuroscience and Cognition**
+        quote: >
+          Bioinformatics profile
+      - layout: left
+        title: Tilburg University
+        caption: 2014 - 2017
+        sub_title: BSc Psychology
+        description: | # this will include new lines to allow paragraphs
+          ## **Psychology**
+        quote: >
+          Exchange to Trent University (Canada)
 
   - title: Codes
     layout: list
@@ -112,7 +120,7 @@ content:
         link_text: Go to code
         description: |
           This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
-          - layout: left
+      - layout: left
         title: Community Detection
         caption: MATLAB
         link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
