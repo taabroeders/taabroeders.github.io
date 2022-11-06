@@ -109,14 +109,14 @@ content:
         title: Generate surrogate data
         caption: MATLAB
         link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/Generate_surrogate.m
-        link_code: Go to code
+        link_text: Go to code
         description: |
           This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
           - layout: left
         title: Community Detection
         caption: MATLAB
         link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
-        link_code: Go to code
+        link_text: Go to code
         description: |
           This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
       
