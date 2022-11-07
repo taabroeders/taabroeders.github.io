@@ -41,7 +41,7 @@ additional_links:
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
+gtag: G-6PKMWB3LPN #"UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
@@ -54,6 +54,9 @@ content:
   - title: First Authored Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-right
+        link_text: All publications
+        link: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
       - layout: left
         title: Brain Communications
         sub_title: 2022
@@ -76,7 +79,25 @@ content:
         description: | # this will include new lines to allow paragraphs
           ## **"Dorsal attention network centrality increases during recovery from acute stress exposure"**
 
-  - title: Experience # Title for the section
+  - title: Shared Code
+    layout: list
+    content:
+      - layout: left
+        title: Generate surrogate data
+        caption: <mark>MATLAB</mark>
+        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/Generate_surrogate.m
+        link_text: Go to code
+        description: |
+          This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
+      - layout: left
+        title: Community Detection
+        caption: <mark>MATLAB</mark>
+        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
+        link_text: Go to code
+        description: |
+          This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
+
+  - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -85,10 +106,32 @@ content:
         link_text: anatomy-neurosciences.com
         sub_title: PhD Student
         caption: May 2020 - Present
-       # quote: |
-       #   Network Resilience
         description: | # this will include new lines to allow paragraphs
           ## **Quentifying network resilience by looking at brain network dynamics across diseases and disorders**
+      - layout: left
+        title: Amsterdam UMC, location VUmc
+        # link: https://anatomy-neurosciences.com
+        # link_text: anatomy-neurosciences.com
+        sub_title: Research Assistant
+        caption: Jan 2019 - May 2020
+        description: | # this will include new lines to allow paragraphs
+          ## **Functional connectivity in neurological and psychiatric disorders**
+      - layout: left
+        title: Amsterdam UMC, location VUmc
+        # link: https://anatomy-neurosciences.com
+        # link_text: anatomy-neurosciences.com
+        sub_title: Research Intern
+        caption: Okt 2018 - Jan 2019
+        description: | # this will include new lines to allow paragraphs
+          ## **Functional connectivity changes in the brain during acute stress recovery.**
+      - layout: left
+        title: UMC Utrecht
+        # link: https://anatomy-neurosciences.com
+        # link_text: anatomy-neurosciences.com
+        sub_title: Research Intern
+        caption: Nov 2017 - Sep 2018
+        description: | # this will include new lines to allow paragraphs
+          ## **Functional connectivity changes in the brain during acute stress recovery.**
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -110,27 +153,8 @@ content:
         # quote: >
         #   Exchange to Trent University (Canada)
 
-  - title: Codes
-    layout: list
-    content:
-      - layout: left
-        title: Generate surrogate data
-        caption: MATLAB
-        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/Generate_surrogate.m
-        link_text: Go to code
-        description: |
-          This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
-      - layout: left
-        title: Community Detection
-        caption: MATLAB
-        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
-        link_text: Go to code
-        description: |
-          This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
-      
-
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
