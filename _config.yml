@@ -73,6 +73,7 @@ content:
 
   - title: Research experience
     layout: text
+
   - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -102,7 +103,8 @@ content:
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
           ## **"Dorsal attention network centrality increases during recovery from acute stress exposure"**
-  - title: Experience # Title for the section
+
+  - title: Positions # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -137,7 +139,8 @@ content:
         caption: Nov 2017 - Sep 2018
         description: | # this will include new lines to allow paragraphs
           ## **Functional connectivity changes in the brain during acute stress recovery.**
-    title: Education # Title for the section
+
+  -  title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
