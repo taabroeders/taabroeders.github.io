@@ -9,7 +9,7 @@ version: 2
 name: Tommy Broeders
 title: PhD Student
 email: t.broeders@amsterdamumc.nl
-website: www.github.com/taabroeders
+#website: www.github.com/taabroeders
 
 # Dark Mode (true/false/never)
 darkmode: true
@@ -50,13 +50,38 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Tommy and I'm a PhD student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). I am a <mark>computational neuroscientist</mark> and my research focuses on <mark>brain network dynamics</mark> across diseases and disorders (primarily multiple sclerosis).
 
+  This page is mainly intended to provide a quick overview of my shared code. Feel free to contact me if you are interested in applying any code to your own research!
+
 content:
-  - title: First Authored Publications # Title for the section
+  - title: **Shared Code**
+    layout: list
+    content:
+      - layout: left
+        title: Generate surrogate data
+        caption: <mark>MATLAB</mark>
+        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/Generate_surrogate.m
+        link_text: Go to code
+        description: |
+          This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
+      - layout: left
+        title: Community Detection
+        caption: <mark>MATLAB</mark>
+        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
+        link_text: Go to code
+        description: |
+          This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
+
+  - title: **Research experience**
+    layout: text
+
+  - title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-right
-        link_text: All publications
+        link_text: View all publications
         link: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
+      - layout: center
+        title: First-authored publications:
       - layout: left
         title: Brain Communications
         sub_title: 2022
@@ -78,24 +103,6 @@ content:
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
           ## **"Dorsal attention network centrality increases during recovery from acute stress exposure"**
-
-  - title: Shared Code
-    layout: list
-    content:
-      - layout: left
-        title: Generate surrogate data
-        caption: <mark>MATLAB</mark>
-        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/Generate_surrogate.m
-        link_text: Go to code
-        description: |
-          This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
-      - layout: left
-        title: Community Detection
-        caption: <mark>MATLAB</mark>
-        link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
-        link_text: Go to code
-        description: |
-          This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
 
   - title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
