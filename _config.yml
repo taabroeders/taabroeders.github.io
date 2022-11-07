@@ -79,8 +79,6 @@ content:
       - layout: top-right
         link_text: View all publications
         link: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
-      - layout: center
-        title: "First-authored publications:"
       - layout: left
         title: Brain Communications
         sub_title: 2022
