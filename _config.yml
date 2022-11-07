@@ -45,7 +45,7 @@ gtag: G-6PKMWB3LPN #"UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
 # About Section
-about_title: <h1>About Me</h1>
+# about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Tommy and I'm a PhD student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). I am a <mark>computational neuroscientist</mark> and my research focuses on <mark>brain network dynamics</mark> across diseases and disorders (primarily multiple sclerosis).
@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
   This page is mainly intended to provide a quick overview of my shared code. Feel free to contact me if you are interested in applying any code to your own research!
 
 content:
-  - title: <h1>Shared Code</h1>
+  - title: Shared Code
     layout: list
     content:
       - layout: left
@@ -71,10 +71,8 @@ content:
         description: |
           This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
 
-  - title: <h1>Research experience</h1>
-    layout: text
-
-  - title: <h2>Publications</h2> # Title for the section
+  - title: Research experience
+  - subtitle: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-right
@@ -103,8 +101,7 @@ content:
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
           ## **"Dorsal attention network centrality increases during recovery from acute stress exposure"**
-
-  - title: <h2>Research Experience</h2> # Title for the section
+  - subtitle: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -139,8 +136,7 @@ content:
         caption: Nov 2017 - Sep 2018
         description: | # this will include new lines to allow paragraphs
           ## **Functional connectivity changes in the brain during acute stress recovery.**
-
-  - title: <h2>Education</h2> # Title for the section
+  - subtitle: <h2>Education</h2> # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
