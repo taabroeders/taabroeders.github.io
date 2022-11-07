@@ -72,7 +72,7 @@ content:
           This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
 
   - title: Research experience
-  - subtitle: Publications # Title for the section
+    title: Publications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-right
@@ -101,7 +101,7 @@ content:
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
           ## **"Dorsal attention network centrality increases during recovery from acute stress exposure"**
-  - subtitle: Research Experience # Title for the section
+    title: Research Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -136,7 +136,7 @@ content:
         caption: Nov 2017 - Sep 2018
         description: | # this will include new lines to allow paragraphs
           ## **Functional connectivity changes in the brain during acute stress recovery.**
-  - subtitle: <h2>Education</h2> # Title for the section
+    title: <h2>Education</h2> # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
