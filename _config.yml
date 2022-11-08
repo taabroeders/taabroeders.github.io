@@ -34,9 +34,9 @@ additional_links:
 - title: Researchgate
   icon: fab fa-researchgate
   url: https://www.researchgate.net/profile/Tommy-Broeders-2/publications
-- title: PubMed Publications
-  icon: fas fa-book
-  url: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
+# - title: PubMed Publications
+#   icon: fas fa-book
+#   url: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -72,13 +72,10 @@ content:
           This code will perform community detection for multilayer connectivity matrices. The code is relatively computationally inexpensive and uses prior information on subnetwork organization to initialize/constrain the detection. 
 
   - title: Research experience
-    layout: text
-  - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: list
     content:
-      - layout: top-right
-        link_text: View all publications
-        link: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
+      - layout: top-middle
+        title: <h2><strong>Publications</strong></h2>
       - layout: left
         title: Brain Communications
         sub_title: 2022
@@ -100,44 +97,48 @@ content:
         link_text: Go to article
         description: | # this will include new lines to allow paragraphs
           ## **"Dorsal attention network centrality increases during recovery from acute stress exposure"**
-  - title: Positions # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+      - layout: top-right
+        link: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
+        link_text: View all publications
+        additional_links:
+          - title: View all publications
+            icon: fas fa-book
+            url: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
+      - layout: top-middle
+        title: <h2><strong>Positions</strong></h2> # Title for the section
       - layout: left
         title: Amsterdam UMC, location VUmc
-        link: https://anatomy-neurosciences.com
-        link_text: anatomy-neurosciences.com
         sub_title: PhD Student
         caption: May 2020 - Present
         description: | # this will include new lines to allow paragraphs
           ## **Quentifying network resilience by looking at brain network dynamics across diseases and disorders**
       - layout: left
         title: Amsterdam UMC, location VUmc
-        # link: https://anatomy-neurosciences.com
-        # link_text: anatomy-neurosciences.com
         sub_title: Research Assistant
         caption: Jan 2019 - May 2020
         description: | # this will include new lines to allow paragraphs
           ## **Functional connectivity in neurological and psychiatric disorders**
       - layout: left
         title: Amsterdam UMC, location VUmc
-        # link: https://anatomy-neurosciences.com
-        # link_text: anatomy-neurosciences.com
         sub_title: Research Intern
         caption: Okt 2018 - Jan 2019
         description: | # this will include new lines to allow paragraphs
           ## **Functional connectivity changes in the brain during acute stress recovery.**
       - layout: left
         title: UMC Utrecht
-        # link: https://anatomy-neurosciences.com
-        # link_text: anatomy-neurosciences.com
         sub_title: Research Intern
         caption: Nov 2017 - Sep 2018
         description: | # this will include new lines to allow paragraphs
           ## **Functional connectivity changes in the brain during acute stress recovery.**
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+      - layout: top-right
+        link: https://anatomy-neurosciences.com/research/clinical-neuroscience/
+        link_text: Team webpage
+        additional_links:
+          - title: Team webpage
+            icon: fas fa-user-plus
+            url: https://anatomy-neurosciences.com/research/clinical-neuroscience/
+      - layout: top-middle
+        title: <h2>Education</h2>
       - layout: left
         title: Utrecht University
         caption: 2017 - 2019
