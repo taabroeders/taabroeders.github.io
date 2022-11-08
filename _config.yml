@@ -57,14 +57,14 @@ content:
     layout: list
     content:
       - layout: left
-        title: Generate surrogate data
+        title: Generate Surrogate Data
         caption: <mark>MATLAB</mark>
         link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/Generate_surrogate.m
         link_text: Go to code
         description: |
           This code will perform phase randomization on fourier transformed data, consistently across timeseries. This preserves static connectivity and n-lag autocorrelation, but time-dependent connectivity properties are randomized. 
       - layout: left
-        title: Community Detection
+        title: Multilayer Community Detection
         caption: <mark>MATLAB</mark>
         link: https://github.com/taabroeders/Recon_Dyn_MS/blob/main/CommunityDetection.m
         link_text: Go to code
@@ -75,7 +75,7 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: <h2><strong>Publications</strong></h2>
+        title: <font size="5"><strong><u>Publications</u></strong></font>
       - layout: left
         title: Brain Communications
         sub_title: 2022
@@ -100,12 +100,8 @@ content:
       - layout: top-right
         link: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
         link_text: View all publications
-        additional_links:
-          - title: View all publications
-            icon: fas fa-book
-            url: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
       - layout: top-middle
-        title: <h2><strong>Positions</strong></h2> # Title for the section
+        title: <font size="5"><strong><u>Positions</u></strong></font> # Title for the section
       - layout: left
         title: Amsterdam UMC, location VUmc
         sub_title: PhD Student
@@ -133,26 +129,22 @@ content:
       - layout: top-right
         link: https://anatomy-neurosciences.com/research/clinical-neuroscience/
         link_text: Team webpage
-        additional_links:
-          - title: Team webpage
-            icon: fas fa-user-plus
-            url: https://anatomy-neurosciences.com/research/clinical-neuroscience/
       - layout: top-middle
-        title: <h2><strong>Education</strong></h2>
+        title: <font size="5"><strong><u>Education</u></strong></font>
       - layout: left
         title: Utrecht University
         caption: 2017 - 2019
-        sub_title: MSc Neuroscience and Cognition
+        # sub_title: MSc Neuroscience and Cognition
         description: | # this will include new lines to allow paragraphs
-          ## **Neuroscience and Cognition**
+          ## **MSc Neuroscience and Cognition**
        #  quote: >
        #    Bioinformatics profile
       - layout: left
         title: Tilburg University
         caption: 2014 - 2017
-        sub_title: BSc Psychology
+        # sub_title: Psychology
         description: | # this will include new lines to allow paragraphs
-          ## **Psychology**
+          ## **BSc Psychology**
         # quote: >
         #   Exchange to Trent University (Canada)
 
