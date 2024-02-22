@@ -77,6 +77,13 @@ content:
       - layout: top-middle
         title: <font size="5"><strong><u>Publications</u></strong></font>
       - layout: left
+        title: Psychiatry Research
+        sub_title: 2024
+        link: https://doi.org/10.1016/j.psychres.2024.115774
+        link_text: Go to article
+        description: | # this will include new lines to allow paragraphs
+          ##  **"Dynamic reconfigurations of brain networks in depressive and anxiety disorders: The influence of antidepressants"**
+      - layout: left
         title: Brain Communications
         sub_title: 2022
         link: https://doi.org/10.1093/braincomms/fcac095
@@ -104,10 +111,16 @@ content:
         title: <font size="5"><strong><u>Positions</u></strong></font> # Title for the section
       - layout: left
         title: Amsterdam UMC, location VUmc
-        sub_title: PhD Student
-        caption: May 2020 - Present
+        sub_title: Postdoc
+        caption: July 2023 - Present
         description: | # this will include new lines to allow paragraphs
-          ## **Quentifying network resilience by looking at brain network dynamics across diseases and disorders**
+          ## **Quantifying brain dynamics in multiple sclerosis and stress-related disorders**
+      - layout: left
+        title: Amsterdam UMC, location VUmc
+        sub_title: PhD Student
+        caption: May 2020 - June 2023
+        description: | # this will include new lines to allow paragraphs
+          ## **Quantifying brain dynamics in multiple sclerosis and stress-related disorders**
       - layout: left
         title: Amsterdam UMC, location VUmc
         sub_title: Research Assistant
