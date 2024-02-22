@@ -48,7 +48,7 @@ gtag: G-6PKMWB3LPN #"UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Tommy and I'm a postdoctoral student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). My research uses <mark>computational neuroscience/mark> and <mark>network neuroscience/mark> to study <mark>brain network dynamics</mark> across diseases and disorders (main focus: <mark>multiple sclerosis</mark> and <mark>stress</mark>).
+  Hi, my name is Tommy and I'm a postdoctoral student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). My research uses <mark>computational neuroscience</mark> and <mark>network neuroscience</mark> to study <mark>brain network dynamics</mark> across diseases and disorders (main focus: <mark>multiple sclerosis</mark> and <mark>stress</mark>).
 
   This page is mainly intended to provide a quick overview of my shared code. Feel free to contact me if you are interested in collaborating and/or applying any code to your own research!
 
