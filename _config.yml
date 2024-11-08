@@ -77,6 +77,13 @@ content:
       - layout: top-middle
         title: <font size="5"><strong><u>Publications</u></strong></font>
       - layout: left
+        title: Neurology
+        sub_title: 2024
+        link: https://doi.org/10.1212/WNL.0000000000209952
+        link_text: Go to article
+        description: | # this will include new lines to allow paragraphs
+          ##  **"Energy Associated With Dynamic Network Changes in Patients With Multiple Sclerosis and Cognitive Impairment"**
+      - layout: left
         title: Psychiatry Research
         sub_title: 2024
         link: https://doi.org/10.1016/j.psychres.2024.115774
