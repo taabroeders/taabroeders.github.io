@@ -56,6 +56,13 @@ content:
   - title: Shared Code
     layout: list
     content:
+    - layout: left
+        title: Connectivity Preprocessing Pipeline
+        caption: <mark>Bash</mark>
+        link: https://github.com/taabroeders/Connectivity_Preprocessing_Pipeline
+        link_text: Go to code
+        description: |
+          This is my preprocessing pipeline for functional and structural connectivity and network analyses using resting-state fMRI and diffusion MRI.
       - layout: left
         title: Generate Surrogate Data
         caption: <mark>MATLAB</mark>
