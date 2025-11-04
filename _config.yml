@@ -34,9 +34,9 @@ additional_links:
 - title: Researchgate
   icon: fab fa-researchgate
   url: https://www.researchgate.net/profile/Tommy-Broeders-2/publications
-# - title: PubMed Publications
-#   icon: fas fa-book
-#   url: https://pubmed.ncbi.nlm.nih.gov/?term=%22broeders+ta*%22%5Bauthor%5D&sort=date
+- title: PhD Thesis: The Dynamic Brain
+  icon: fas fa-book
+  url: https://research.vu.nl/ws/portalfiles/portal/398409847/broederstaathedynamicbrainthesis%20-%2067bf3902e97a3.pdf
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -48,7 +48,7 @@ gtag: G-6PKMWB3LPN #"UA-00000000-0"
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Tommy and I'm a postdoctoral student at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). My research uses <mark>computational neuroscience</mark> and <mark>network neuroscience</mark> to study <mark>brain network dynamics</mark> across diseases and disorders (main focus: <mark>multiple sclerosis</mark> and <mark>stress</mark>).
+  Hi, my name is Tommy and I'm a postdoctoral researcher at the department of Anatomy and Neurosciences (Amsterdam UMC, location VUmc). My research uses <mark>computational neuroscience</mark> and <mark>network neuroscience</mark> to study <mark>the dynamic brain</mark> across diseases and disorders (main focus: <mark>multiple sclerosis</mark> and <mark>stress</mark>).
 
   This page is mainly intended to provide a quick overview of my shared code. Feel free to contact me if you are interested in collaborating and/or applying any code to your own research!
 
